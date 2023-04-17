@@ -1,0 +1,97 @@
+
+
+/*Area de Fofocas - Alexandre */
+.area-fofocas {
+  width: 920px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap; /*Serve para aplicar a suposta responsividade*/
+}
+
+.fofocas {
+  width: 660px;
+  flex: 1 0 50%;
+  margin: 20px 20px;
+}
+
+/*Alteração das fofocas em destaque*/
+.fofocas h1 { /*Fiz algumas alterações aqui (Jucilene)*/
+  color: black;
+  text-align: justify;
+  margin: 10px 10px;
+  font-size: 30px;
+
+
+
+ 
+}
+.fofocas h3{ /* acrescentei essa classe (Jucilene)*/
+  color: black;
+  font-size: 20px;
+  text-align: justify;
+  margin: 10px 10px;
+  padding: 15px;
+ 
+
+}
+.fofocas p{ /* acrescentei essa classe (Jucilene)*/
+
+  font-size: 20px;
+  font-family: Inter, sans-serif;
+  padding-top: 20px;
+  line-height: 1.5;
+
+}
+
+.img-fofocas { /*Fiz algumas alterações aqui (Jucilene)*/
+  width: 600px;
+  height: 400px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+#video {
+  margin-top: 20px;
+}
+
+/*Responsividade para meu menu lateral descer e deixar a lista de fofocas em cima em telas pequenas*/
+@media (max-width: 768px) {
+  .fofocas {
+    flex-basis: 50%; /* Ocupar 50% do espaço disponível */
+  }
+  .menu-lateral {
+    flex-basis: 50%; /* Ocupar 50% do espaço disponível */
+    margin-left: 0; /* Remover a margem esquerda */
+  }
+}
+
+/* Estilos específicos para dispositivos de tela média */
+@media screen and (max-width: 768px) {
+  /* Modificar estilos para dispositivos de tela média */
+}
+
+/* Estilos específicos para dispositivos de tela pequena */
+@media screen and (max-width: 480px) {
+  /* Modificar estilos para dispositivos de tela pequena */
+}
+
+/*fim banner propaganda*/
+.imagemFofoca {
+  flex: 0 0 auto; /* Crescer ou encolher conforme necessário, tamanho automático */
+  margin-right: 1rem; /* Adicionar espaçamento à direita da imagem */
+  width: 200px;
+  height: 150px;
+}
+
+.textoFofoca {
+  flex: 1; /* Para preencher o espaço disponível */
+}
+
+.textoFofoca h2 {
+  color: orange;
+}
+
+.fofoca {
+  display: flex;
+  margin-bottom: 10px;
+}
